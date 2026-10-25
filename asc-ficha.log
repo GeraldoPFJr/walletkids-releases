@@ -1,0 +1,32 @@
+build=6ade315ef2f481e66a6956fe
+commit=01780153d311dc1c08adf66e56d6dbb038b96917
+tag=store-v1.4.1
+exit=70
+
+pt-BR ok: nome 10, subtítulo 27, promo 170, keywords 95 chars / 99 bytes, descrição 1497
+app 6811295974 primaryLocale=pt-BR (não altero o idioma primário)
+versão 1.4.1 PREPARE_FOR_SUBMISSION
+versão 1.4.0 READY_FOR_SALE
+versão 1.3.0 READY_FOR_SALE
+fase: conferir tag=store-v1.4.1 pub=1.4.1+22 maior=22
+fase: versão reusar
+versão 1.4.1 reaproveitada (b3a8a85f-2c72-44d7-bc6c-6cee4262af42, PREPARE_FOR_SUBMISSION)
+fase: gravar ficha
+appInfo pt-BR atualizado (EN não foi alterado)
+versão pt-BR atualizado
+localizações à venda: pt-BR
+novidades en-US: só o campo whatsNew
+localizações: en-US, pt-BR
+fase: capturas
+capturas copiadas do lookup público: 9
+APPLE_ERRO HTTP=409 code=STATE_ERROR.SCREENSHOT_TOO_MANY title=Too many screenshots. detail=Set: f2cea146-2cd5-403e-a0ea-bb0d0463a3c1 has already 10 appScreenshots method=POST path=/v1/appScreenshots
+APPLE_ERRO HTTP=409 code=STATE_ERROR.SCREENSHOT_TOO_MANY title=Too many screenshots. detail=Set: f2cea146-2cd5-403e-a0ea-bb0d0463a3c1 has already 10 appScreenshots method=POST path=/v1/appScreenshots
+Error: APPLE_ERRO HTTP=409 code=STATE_ERROR.SCREENSHOT_TOO_MANY title=Too many screenshots. detail=Set: f2cea146-2cd5-403e-a0ea-bb0d0463a3c1 has already 10 appScreenshots method=POST path=/v1/appScreenshots
+    at api (file:///Users/builder/clone/scripts/asc-ptbr-metadata.mjs:159:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async apiLoja (file:///Users/builder/clone/scripts/asc-store-release.mjs:502:14)
+    at async enviarCapturaLegada (file:///Users/builder/clone/scripts/asc-store-release.mjs:639:19)
+    at async clonarSets (file:///Users/builder/clone/scripts/asc-store-release.mjs:765:7)
+    at async copiarMidia (file:///Users/builder/clone/scripts/asc-store-release.mjs:852:5)
+    at async publicar (file:///Users/builder/clone/scripts/asc-store-release.mjs:1325:3)
+FIM nome=Error status=409 exit=70
