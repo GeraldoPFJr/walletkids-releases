@@ -1,41 +1,15 @@
-build=6adf6519f2f481e66a6ec08d
+build=6adf6a78f2f481e66a6ee3dc
 commit=7177f79d70fbc6a600eb3b023cb0de3c38ce62fc
 tag=store-v1.4.2
 exit=0
 
 pt-BR ok: nome 10, subtítulo 27, promo 170, keywords 95 chars / 99 bytes, descrição 1497
 app 6811295974 primaryLocale=pt-BR (não altero o idioma primário)
+versão 1.4.2 WAITING_FOR_REVIEW
 versão 1.4.1 READY_FOR_SALE
 versão 1.4.0 READY_FOR_SALE
 versão 1.3.0 READY_FOR_SALE
-fase: conferir tag=store-v1.4.2 pub=1.4.2+23 maior=22
-fase: versão criar
-versão 1.4.2 criada (93e0695b-2bb9-4fda-801c-187a983170a7)
-fase: gravar ficha
-appInfo pt-BR atualizado (EN não foi alterado)
-versão pt-BR atualizado
-localizações à venda: en-US, pt-BR
-novidades en-US: só o campo whatsNew
-localizações: en-US, pt-BR
-fase: capturas
-capturas copiadas do lookup público: 9
-set APP_IPHONE_65 já tem 10 capturas; não envio mais
-set APP_IPAD_PRO_3GEN_129 já tem 3 capturas; não envio mais
-fase: esperar build
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 ainda não apareceu na App Store Connect
-build 23 VALID
-build 23 anexado à versão
-versão nova já tem ficha de revisão; não sobrescrevi
-APPLE_ERRO HTTP=404 code=PATH_ERROR title=The URL path is not valid detail=The relationship 'idfaDeclaration' does not exist method=GET path=/v1/appStoreVersions/b3a8a85f-2c72-44d7-bc6c-6cee4262af42/idfaDeclaration
-reviewSubmission cd3ee8d6-3020-47cf-b035-ecb89f8d43cf
-revisão enviada (WAITING_FOR_REVIEW)
+fase: conferir tag=store-v1.4.2 pub=1.4.2+23 maior=23
+1.4.2 está WAITING_FOR_REVIEW. Localizações: en-US, pt-BR
 ESTADO 1.4.2 WAITING_FOR_REVIEW locales=en-US,pt-BR
-pt-BR enviado para revisão na 1.4.2 (23). EN permanece: en-US.
-Preço e territórios não foram alterados. A liberação é automática depois que a Apple aprovar.
-O lookup só lista PT com a versão à venda: curl -s 'https://itunes.apple.com/lookup?id=6811295974&country=br'
+pt-BR já está nessa versão. Nada mais a enviar.
