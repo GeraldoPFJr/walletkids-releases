@@ -1,15 +1,41 @@
-build=6adf6a78f2f481e66a6ee3dc
-commit=7177f79d70fbc6a600eb3b023cb0de3c38ce62fc
-tag=store-v1.4.2
+build=6ae1de4e6a1999f83b468fc8
+commit=b39464fe15872087eec310794a4ae2a1ac2a72e8
+tag=store-v1.4.3
 exit=0
 
 pt-BR ok: nome 10, subtítulo 27, promo 170, keywords 95 chars / 99 bytes, descrição 1497
 app 6811295974 primaryLocale=pt-BR (não altero o idioma primário)
-versão 1.4.2 WAITING_FOR_REVIEW
+versão 1.4.2 READY_FOR_SALE
 versão 1.4.1 READY_FOR_SALE
 versão 1.4.0 READY_FOR_SALE
 versão 1.3.0 READY_FOR_SALE
-fase: conferir tag=store-v1.4.2 pub=1.4.2+23 maior=23
-1.4.2 está WAITING_FOR_REVIEW. Localizações: en-US, pt-BR
-ESTADO 1.4.2 WAITING_FOR_REVIEW locales=en-US,pt-BR
-pt-BR já está nessa versão. Nada mais a enviar.
+fase: conferir tag=store-v1.4.3 pub=1.4.3+24 maior=23
+fase: versão criar
+versão 1.4.3 criada (48796a54-95f5-4366-946f-0e8b1c99eed6)
+fase: gravar ficha
+appInfo pt-BR atualizado (EN não foi alterado)
+versão pt-BR atualizado
+localizações à venda: en-US, pt-BR
+novidades en-US: só o campo whatsNew
+localizações: en-US, pt-BR
+fase: capturas
+capturas copiadas do lookup público: 13
+set APP_IPHONE_65 já tem 10 capturas; não envio mais
+set APP_IPAD_PRO_3GEN_129 já tem 3 capturas; não envio mais
+fase: esperar build
+build 24 ainda não apareceu na App Store Connect
+build 24 ainda não apareceu na App Store Connect
+build 24 ainda não apareceu na App Store Connect
+build 24 ainda não apareceu na App Store Connect
+build 24 ainda não apareceu na App Store Connect
+build 24 ainda não apareceu na App Store Connect
+build 24 VALID
+build 24 anexado à versão
+versão nova já tem ficha de revisão; não sobrescrevi
+APPLE_ERRO HTTP=404 code=PATH_ERROR title=The URL path is not valid detail=The relationship 'idfaDeclaration' does not exist method=GET path=/v1/appStoreVersions/93e0695b-2bb9-4fda-801c-187a983170a7/idfaDeclaration
+reviewSubmission b3ce89dd-d5c3-4144-9bb5-a3a303e4efe1
+revisão enviada (WAITING_FOR_REVIEW)
+ESTADO 1.4.3 WAITING_FOR_REVIEW locales=en-US,pt-BR
+pt-BR enviado para revisão na 1.4.3 (24). EN permanece: en-US.
+Preço e territórios não foram alterados. A liberação é automática depois que a Apple aprovar.
+O lookup só lista PT com a versão à venda: curl -s 'https://itunes.apple.com/lookup?id=6811295974&country=br'
